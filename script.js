@@ -95,6 +95,7 @@ document.addEventListener('click', event => {
     let appt = localStorage.setItem('appt', document.getElementById('ten').value)
   }
 })
+
 document.getElementById('eleven').value = localStorage.getItem('appt')
 
 document.addEventListener('click', event => {
@@ -109,6 +110,7 @@ document.addEventListener('click', event => {
     let appt = localStorage.setItem('appt', document.getElementById('twelve').value)
   }
 })
+
 document.getElementById('one').value = localStorage.getItem('appt')
 
 document.addEventListener('click', event => {
@@ -123,6 +125,7 @@ document.addEventListener('click', event => {
     let appt = localStorage.setItem('appt', document.getElementById('two').value)
   }
 })
+
 document.getElementById('three').value = localStorage.getItem('appt')
 
 document.addEventListener('click', event => {
@@ -130,6 +133,7 @@ document.addEventListener('click', event => {
     let appt = localStorage.setItem('appt', document.getElementById('three').value)
   }
 })
+
 document.getElementById('four').value = localStorage.getItem('appt')
 
 document.addEventListener('click', event => {
@@ -137,6 +141,7 @@ document.addEventListener('click', event => {
     let appt = localStorage.setItem('appt', document.getElementById('four').value)
   }
 })
+
 document.getElementById('five').value = localStorage.getItem('appt')
 
 document.addEventListener('click', event => {
