@@ -80,12 +80,12 @@ if (hours > 12) {
   }
 }
 
-document.getElementById('nine').textContent = localStorage.getItem('appt')
+document.getElementById('nine').value = localStorage.getItem('appt')
 
 document.addEventListener('click', event => {
   if (event.target.classList.contains('col-1 btn btn-infor border')){
     let appt = localStorage.setItem('appt', document.getElementById('nine').value)
-  }
+    }
 })
 
 document.getElementById('ten').value = localStorage.getItem('appt')
