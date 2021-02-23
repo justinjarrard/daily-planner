@@ -80,72 +80,72 @@ if (hours > 12) {
   }
 }
 
-document.getElementById('nine').value = localStorage.getItem('appt')
+document.getElementById('nine').value = localStorage.getItem('appt1')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')){
-    let appt = localStorage.setItem('appt', document.getElementById('nine').value)
+  if (event.target.id.includes('btn1')){
+    let appt = localStorage.setItem('appt1', document.getElementById('nine').value)
     }
 })
 
-document.getElementById('ten').value = localStorage.getItem('appt')
+document.getElementById('ten').value = localStorage.getItem('appt2')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('ten').value)
+  if (event.target.id.includes('btn2')) {
+    let appt = localStorage.setItem('appt2', document.getElementById('ten').value)
   }
 })
 
-document.getElementById('eleven').value = localStorage.getItem('appt')
+document.getElementById('eleven').value = localStorage.getItem('appt3')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('eleven').value)
+  if (event.target.id.includes('btn3')) {
+    let appt = localStorage.setItem('appt3', document.getElementById('eleven').value)
   }
 })
-document.getElementById('twelve').value = localStorage.getItem('appt')
+document.getElementById('twelve').value = localStorage.getItem('appt4')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('twelve').value)
-  }
-})
-
-document.getElementById('one').value = localStorage.getItem('appt')
-
-document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('one').value)
-  }
-})
-document.getElementById('two').value = localStorage.getItem('appt')
-
-document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('two').value)
+  if (event.target.id.includes('btn4')) {
+    let appt = localStorage.setItem('appt4', document.getElementById('twelve').value)
   }
 })
 
-document.getElementById('three').value = localStorage.getItem('appt')
+document.getElementById('one').value = localStorage.getItem('appt5')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('three').value)
+  if (event.target.id.includes('btn5')) {
+    let appt = localStorage.setItem('appt5', document.getElementById('one').value)
+  }
+})
+document.getElementById('two').value = localStorage.getItem('appt6')
+
+document.addEventListener('click', event => {
+  if (event.target.id.includes('btn6')) {
+    let appt = localStorage.setItem('appt6', document.getElementById('two').value)
   }
 })
 
-document.getElementById('four').value = localStorage.getItem('appt')
+document.getElementById('three').value = localStorage.getItem('appt7')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('four').value)
+  if (event.target.id.includes('btn7')) {
+    let appt = localStorage.setItem('appt7', document.getElementById('three').value)
   }
 })
 
-document.getElementById('five').value = localStorage.getItem('appt')
+document.getElementById('four').value = localStorage.getItem('appt8')
 
 document.addEventListener('click', event => {
-  if (event.target.classList.contains('col-1 btn btn-infor border')) {
-    let appt = localStorage.setItem('appt', document.getElementById('five').value)
+  if (event.target.id.includes('btn8')) {
+    let appt = localStorage.setItem('appt8', document.getElementById('four').value)
+  }
+})
+
+document.getElementById('five').value = localStorage.getItem('appt9')
+
+document.addEventListener('click', event => {
+  if (event.target.id.includes('btn9')) {
+    let appt = localStorage.setItem('appt9', document.getElementById('five').value)
   }
 })
