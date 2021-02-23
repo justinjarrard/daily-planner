@@ -78,4 +78,69 @@ if (hours > 12) {
   } else if (hours === 17) {
     document.getElementById('five').classList.add('present')
   }
+}
 
+document.getElementById('nine').textContent = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')){
+    let appt = localStorage.setItem('appt', document.getElementById('nine').value)
+  }
+})
+
+document.getElementById('ten').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('ten').value)
+  }
+})
+document.getElementById('eleven').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('eleven').value)
+  }
+})
+document.getElementById('twelve').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('twelve').value)
+  }
+})
+document.getElementById('one').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('one').value)
+  }
+})
+document.getElementById('two').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('two').value)
+  }
+})
+document.getElementById('three').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('three').value)
+  }
+})
+document.getElementById('four').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('four').value)
+  }
+})
+document.getElementById('five').value = localStorage.getItem('appt')
+
+document.addEventListener('click', event => {
+  if (event.target.classList.contains('col-1 btn btn-infor border')) {
+    let appt = localStorage.setItem('appt', document.getElementById('five').value)
+  }
+})
